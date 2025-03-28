@@ -14,10 +14,11 @@ airline_data = pd.read_csv(
 
 # Initialize Dash app
 app = dash.Dash(__name__)
+server=app.server
 
 # Layout
 app.layout = html.Div(children=[
-    html.H1('Airline Performance Dashboard',
+    html.H1('Airline Performance Dashboard Assignment by Om Makh',
             style={'textAlign': 'center', 'color': '#503D36', 'font-size': 40}),
 
     html.Div(["Input Year: ",
