@@ -1,3 +1,4 @@
+gunicorn==21.2.0
 dash==2.15.0
 dash-core-components==2.0.0
 dash-html-components==2.0.0
